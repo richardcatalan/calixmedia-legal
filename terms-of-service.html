@@ -2,46 +2,39 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Calix Media – Privacy Policy</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Calix Media – Terms of Service</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    /* Import a subtle overlay font smoothing */
+    /* Base & background */
     body {
       margin: 0;
       padding: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
       color: #e0e0e0;
-      background: #111;
-      background-image: url('https://raw.githubusercontent.com/richardcatalan/calixmedia-legal/main/ChatGPT%20Image%20Jul%2026%2C%202025%2C%2007_07_13%20AM.png');
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed;
-      /* dark overlay */
+      background: #111 url('https://raw.githubusercontent.com/richardcatalan/calixmedia-legal/main/ChatGPT%20Image%20Jul%2026%2C%202025%2C%2007_07_13%20AM.png') center/cover fixed;
       position: relative;
     }
-    /* semi-transparent overlay to improve readability */
+    /* Dark overlay */
     body::before {
       content: "";
       position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
+      inset: 0;
       background: rgba(0,0,0,0.7);
       z-index: -1;
     }
+    /* Header */
     header {
       display: flex;
       align-items: center;
       padding: 1rem 2rem;
-      background: rgba(0, 0, 0, 0.8);
-      border-bottom: 1px solid #004f7a;
+      background: rgba(0,0,0,0.8);
+      border-bottom: 2px solid #004f7a;
     }
     .logo {
       height: 60px;
-      width: auto;
       margin-right: 1rem;
       filter: drop-shadow(0 0 5px #00aaff);
+      flex-shrink: 0;
     }
     .header-text h1 {
       margin: 0;
@@ -53,25 +46,28 @@
       font-size: 0.9rem;
       color: #aaa;
     }
+    /* Main content */
     main {
       max-width: 800px;
       margin: 2rem auto;
       padding: 2rem;
-      background: rgba(20, 20, 20, 0.85);
+      background: rgba(20,20,20,0.85);
       border-radius: 8px;
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.5);
     }
     h2 {
       color: #00aaff;
       margin-top: 1.5rem;
-      border-bottom: 1px solid #004f7a;
       padding-bottom: 0.3rem;
+      border-bottom: 1px solid #004f7a;
     }
     p, li {
       color: #ddd;
     }
     ul {
       list-style: disc inside;
+      margin: 0;
+      padding: 0;
     }
     a {
       color: #00cfff;
@@ -85,6 +81,7 @@
       border-top: 1px solid #004f7a;
       margin: 2rem 0;
     }
+    /* Footer */
     footer {
       text-align: center;
       font-size: 0.9rem;
@@ -97,57 +94,65 @@
   <header>
     <img src="https://raw.githubusercontent.com/richardcatalan/calixmedia-legal/main/ChatGPT%20Image%20Jul%2026%2C%202025%2C%2007_07_13%20AM.png" alt="Calix Media Logo" class="logo">
     <div class="header-text">
-      <h1>Calix Media – Privacy Policy</h1>
-      <p><em>Effective Date: July 22, 2025</em></p>
+      <h1>Calix Media – Terms of Service</h1>
+      <p><em>Last updated: July 2025</em></p>
     </div>
   </header>
   <main>
-    <p>Calix Media ("we", "us", or "our") respects your privacy and is committed to full compliance with applicable data protection laws, including the Philippines Data Privacy Act. By accessing or using our services, you consent to the practices described herein.</p>
+    <p>Calix Media ("we", "our", or "us") provides automation tools for uploading and managing social media content, including TikTok video uploads. By using Calix Media ("the Service"), you agree to these Terms of Service ("Terms"). Please read carefully.</p>
     <hr>
-    <h2>1. Information We Collect</h2>
+    <h2>1. Overview</h2>
+    <p>Calix Media offers a platform to automate social media content management. Use of the Service is subject to these Terms.</p>
+    <h2>2. Acceptance of Terms</h2>
     <ul>
-      <li><strong>TikTok account details:</strong> username, profile information, authentication tokens.</li>
-      <li><strong>Uploaded content:</strong> videos, captions, and metadata you provide.</li>
-      <li><strong>Usage logs:</strong> upload status, error logs (for debugging and support).</li>
+      <li>By accessing or using Calix Media, you confirm you are at least 18 years old and legally able to enter these Terms.</li>
+      <li>If acting on behalf of an entity, you confirm authority to bind that entity.</li>
+      <li>If you disagree with these Terms, do not use the Service.</li>
     </ul>
-    <p>We do <strong>not</strong> collect sensitive personal data (e.g., financial, health) or anything beyond what’s strictly necessary.</p>
-
-    <h2>2. How We Use Your Information</h2>
+    <h2>3. Use of Service</h2>
     <ul>
-      <li>Authenticate and authorize your TikTok account.</li>
-      <li>Upload and manage content on your behalf.</li>
-      <li>Display account status and performance metrics.</li>
-      <li>Provide support and continuously improve our platform.</li>
+      <li>Use only with accounts you own or are authorized to manage.</li>
+      <li>Comply with all laws and TikTok’s terms and guidelines.</li>
+      <li>You are responsible for all content you upload, schedule, or manage.</li>
+      <li>Do not use for unlawful, infringing, or malicious purposes.</li>
+      <li>We may suspend or terminate access for violations or misuse.</li>
     </ul>
-    <p>We <strong>never</strong> sell, rent, or trade your personal information. Sharing with TikTok is strictly to meet API requirements.</p>
-
-    <h2>3. Data Storage & Security</h2>
+    <h2>4. User Content & Data</h2>
     <ul>
-      <li>Data is retained only as long as needed to fulfill your requests.</li>
-      <li>Authentication tokens are encrypted at rest and in transit (TLS).</li>
-      <li>Industry-standard safeguards (firewalls, regular audits) are in place to prevent unauthorized access.</li>
+      <li>You retain all rights and responsibility for your content.</li>
+      <li>We do not claim ownership and share data only to provide the Service or as required by law.</li>
+      <li>See our <a href="privacy-policy.html">Privacy Policy</a> for details on data handling.</li>
     </ul>
-
-    <h2>4. Data Retention & Deletion</h2>
+    <h2>5. Account Security</h2>
     <ul>
-      <li>Uploaded content and logs are purged after processing or upon request.</li>
-      <li>Request complete deletion anytime: <a href="mailto:richardcatalan1410@gmail.com">richardcatalan1410@gmail.com</a>.</li>
+      <li>You must secure your Calix Media and social media credentials.</li>
+      <li>Notify us immediately of any unauthorized access.</li>
     </ul>
-
-    <h2>5. Your Rights & Choices</h2>
-    <p>Under applicable law, you may access, correct, or erase your data. To exercise these rights or revoke TikTok access, contact us at <a href="mailto:richardcatalan1410@gmail.com">richardcatalan1410@gmail.com</a>.</p>
-
-    <h2>6. Third-Party Services</h2>
-    <p>We integrate solely with TikTok for content publishing. No other third parties receive your data without explicit consent.</p>
-
-    <h2>7. Policy Updates</h2>
-    <p>We may revise this policy; updates will appear here with a new effective date. Continued use indicates acceptance.</p>
-
-    <h2>8. Governing Law</h2>
-    <p>This policy is governed by Philippine law. Disputes will be settled in local courts.</p>
-
-    <h2>9. Contact Us</h2>
-    <p>Questions or requests? Email us at <a href="mailto:richardcatalan1410@gmail.com">richardcatalan1410@gmail.com</a>.</p>
+    <h2>6. Intellectual Property</h2>
+    <ul>
+      <li>The platform, software, branding, and documentation (except your content) remain Calix Media’s property.</li>
+      <li>Do not copy, modify, reverse-engineer, or redistribute any part of the Service except as permitted.</li>
+    </ul>
+    <h2>7. Service Availability & Changes</h2>
+    <ul>
+      <li>Provided “as is” and “as available.” We may update, suspend, or discontinue the Service at any time without notice.</li>
+      <li>We are not liable for interruptions or inability to access the Service.</li>
+    </ul>
+    <h2>8. Limitation of Liability</h2>
+    <ul>
+      <li>To the fullest extent permitted by law, Calix Media is not liable for indirect, incidental, special, consequential, or punitive damages.</li>
+      <li>You ensure compliance with platform rules and applicable laws.</li>
+    </ul>
+    <h2>9. Indemnification</h2>
+    <ul>
+      <li>You agree to indemnify and hold harmless Calix Media, its developers, and affiliates from any claims or damages arising from your use of the Service or violation of these Terms.</li>
+    </ul>
+    <h2>10. Changes to These Terms</h2>
+    <ul>
+      <li>We may revise these Terms. Updates appear here with a revised date. Continued use indicates acceptance.</li>
+    </ul>
+    <h2>11. Contact</h2>
+    <p>For questions about these Terms, contact: <a href="mailto:richardcatalan1410@gmail.com">richardcatalan1410@gmail.com</a></p>
   </main>
   <footer>
     &copy; 2025 Calix Media. All rights reserved.
