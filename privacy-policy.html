@@ -5,46 +5,76 @@
   <title>Calix Media – Privacy Policy</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <style>
+    /* Import a subtle overlay font smoothing */
     body {
-      background-color: #f9f9f9;
-      color: #333;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      line-height: 1.6;
       margin: 0;
       padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: #e0e0e0;
+      background: #111;
+      background-image: url('https://raw.githubusercontent.com/richardcatalan/calixmedia-legal/main/ChatGPT%20Image%20Jul%2026%2C%202025%2C%2007_07_13%20AM.png');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      /* dark overlay */
+      position: relative;
+    }
+    /* semi-transparent overlay to improve readability */
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.7);
+      z-index: -1;
     }
     header {
-      background-color: #000;
-      color: #fff;
-      padding: 1.5rem 1rem;
       display: flex;
       align-items: center;
-      justify-content: center;
-      gap: 1rem;
+      padding: 1rem 2rem;
+      background: rgba(0, 0, 0, 0.8);
+      border-bottom: 1px solid #004f7a;
     }
     .logo {
       height: 60px;
       width: auto;
+      margin-right: 1rem;
+      filter: drop-shadow(0 0 5px #00aaff);
     }
-    header h1 {
+    .header-text h1 {
       margin: 0;
       font-size: 2rem;
       color: #00aaff;
     }
+    .header-text p {
+      margin: 0;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
     main {
       max-width: 800px;
       margin: 2rem auto;
-      padding: 0 1rem;
-      background: #fff;
+      padding: 2rem;
+      background: rgba(20, 20, 20, 0.85);
       border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
     }
     h2 {
-      color: #005FAA;
+      color: #00aaff;
       margin-top: 1.5rem;
+      border-bottom: 1px solid #004f7a;
+      padding-bottom: 0.3rem;
+    }
+    p, li {
+      color: #ddd;
+    }
+    ul {
+      list-style: disc inside;
     }
     a {
-      color: #005FAA;
+      color: #00cfff;
       text-decoration: none;
     }
     a:hover {
@@ -52,80 +82,72 @@
     }
     hr {
       border: none;
-      border-top: 1px solid #ddd;
+      border-top: 1px solid #004f7a;
       margin: 2rem 0;
-    }
-    ul {
-      list-style: disc inside;
     }
     footer {
       text-align: center;
       font-size: 0.9rem;
-      color: #666;
+      color: #777;
       margin: 2rem 0;
     }
   </style>
 </head>
 <body>
   <header>
-    <!-- Make sure to place your logo file at the repo root as "logo.png" -->
-    <img src="logo.png" alt="Calix Media Logo" class="logo">
-    <div>
+    <img src="https://raw.githubusercontent.com/richardcatalan/calixmedia-legal/main/ChatGPT%20Image%20Jul%2026%2C%202025%2C%2007_07_13%20AM.png" alt="Calix Media Logo" class="logo">
+    <div class="header-text">
       <h1>Calix Media – Privacy Policy</h1>
       <p><em>Effective Date: July 22, 2025</em></p>
     </div>
   </header>
   <main>
-    <p>Calix Media ("we", "us" or "our") takes your privacy seriously and is committed to compliance with applicable data protection laws, including the Philippines Data Privacy Act. By using our service, you consent to the terms of this Privacy Policy.</p>
+    <p>Calix Media ("we", "us", or "our") respects your privacy and is committed to full compliance with applicable data protection laws, including the Philippines Data Privacy Act. By accessing or using our services, you consent to the practices described herein.</p>
     <hr>
     <h2>1. Information We Collect</h2>
-    <p>We collect only the personal data necessary to provide our services:</p>
     <ul>
-      <li><strong>TikTok account data:</strong> username, profile details, authentication tokens.</li>
-      <li><strong>Content you upload:</strong> videos, captions, metadata you provide.</li>
-      <li><strong>Usage logs:</strong> upload status, error reports (for support and debugging).</li>
+      <li><strong>TikTok account details:</strong> username, profile information, authentication tokens.</li>
+      <li><strong>Uploaded content:</strong> videos, captions, and metadata you provide.</li>
+      <li><strong>Usage logs:</strong> upload status, error logs (for debugging and support).</li>
     </ul>
-    <p>We do <strong>not</strong> collect or retain any sensitive personal data (e.g., financial information, health data) or unnecessary metrics.</p>
+    <p>We do <strong>not</strong> collect sensitive personal data (e.g., financial, health) or anything beyond what’s strictly necessary.</p>
 
     <h2>2. How We Use Your Information</h2>
-    <p>We process your data to:</p>
     <ul>
-      <li>Authenticate your TikTok identity.</li>
+      <li>Authenticate and authorize your TikTok account.</li>
       <li>Upload and manage content on your behalf.</li>
-      <li>Display account dashboard and performance metrics.</li>
-      <li>Provide technical support and improve our platform.</li>
+      <li>Display account status and performance metrics.</li>
+      <li>Provide support and continuously improve our platform.</li>
     </ul>
-    <p>We do <strong>not</strong> sell, rent or share your personal data, except to TikTok as required by their API policies.</p>
+    <p>We <strong>never</strong> sell, rent, or trade your personal information. Sharing with TikTok is strictly to meet API requirements.</p>
 
     <h2>3. Data Storage & Security</h2>
     <ul>
-      <li>Data is stored only for as long as needed to complete your requests.</li>
-      <li>Authentication tokens are encrypted at rest and in transit.</li>
-      <li>We implement industry-standard safeguards (TLS, encrypted storage) to prevent unauthorized access.</li>
+      <li>Data is retained only as long as needed to fulfill your requests.</li>
+      <li>Authentication tokens are encrypted at rest and in transit (TLS).</li>
+      <li>Industry-standard safeguards (firewalls, regular audits) are in place to prevent unauthorized access.</li>
     </ul>
 
     <h2>4. Data Retention & Deletion</h2>
     <ul>
-      <li>Uploaded content and logs are purged after successful processing or upon your request.</li>
-      <li>You may request deletion of all your stored data by emailing <a href="mailto:richardcatalan1410@gmail.com">richardcatalan1410@gmail.com</a>.</li>
+      <li>Uploaded content and logs are purged after processing or upon request.</li>
+      <li>Request complete deletion anytime: <a href="mailto:richardcatalan1410@gmail.com">richardcatalan1410@gmail.com</a>.</li>
     </ul>
 
     <h2>5. Your Rights & Choices</h2>
-    <p>Under applicable law, you have the right to access, correct, or erase your personal data. To exercise these rights, contact us at <a href="mailto:richardcatalan1410@gmail.com">richardcatalan1410@gmail.com</a>. You may also revoke TikTok access at any time through your TikTok account settings.</p>
+    <p>Under applicable law, you may access, correct, or erase your data. To exercise these rights or revoke TikTok access, contact us at <a href="mailto:richardcatalan1410@gmail.com">richardcatalan1410@gmail.com</a>.</p>
 
     <h2>6. Third-Party Services</h2>
-    <p>Our service integrates with TikTok’s platform solely to enable content publishing. We do not share your data with any other third parties without your explicit consent.</p>
+    <p>We integrate solely with TikTok for content publishing. No other third parties receive your data without explicit consent.</p>
 
-    <h2>7. Changes to This Policy</h2>
-    <p>We reserve the right to modify this Privacy Policy. Any changes will be posted here with a revised effective date. Continued use after updates constitutes acceptance of the new terms.</p>
+    <h2>7. Policy Updates</h2>
+    <p>We may revise this policy; updates will appear here with a new effective date. Continued use indicates acceptance.</p>
 
     <h2>8. Governing Law</h2>
-    <p>This Privacy Policy is governed by the laws of the Republic of the Philippines. Any disputes will be resolved in the appropriate Philippine courts.</p>
+    <p>This policy is governed by Philippine law. Disputes will be settled in local courts.</p>
 
     <h2>9. Contact Us</h2>
-    <p>For questions or requests regarding this policy, please contact:<br>
-      <strong>Email:</strong> <a href="mailto:richardcatalan1410@gmail.com">richardcatalan1410@gmail.com</a>
-    </p>
+    <p>Questions or requests? Email us at <a href="mailto:richardcatalan1410@gmail.com">richardcatalan1410@gmail.com</a>.</p>
   </main>
   <footer>
     &copy; 2025 Calix Media. All rights reserved.
